@@ -97,8 +97,8 @@ data class QuircData(
     /** Payload length */
     var payloadLen: Int = 0,
     
-    /** ECI assignment number */
-    var eci: UInt = 0u
+    /** ECI assignment number (stored as Int for Java interoperability, always non-negative) */
+    var eci: Int = 0
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true

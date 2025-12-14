@@ -1,3 +1,6 @@
+// Kotlin version is defined in gradle.properties
+val kotlinVersion = project.findProperty("kotlinVersion") as String? ?: "1.9.22"
+
 plugins {
     kotlin("jvm") version "1.9.22"
     `java-library`
