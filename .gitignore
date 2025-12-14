@@ -10,3 +10,11 @@ libquirc.so*
 *~
 .DS_Store
 .idea
+
+# Gradle/Kotlin
+.gradle/
+build/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+.kotlin/
